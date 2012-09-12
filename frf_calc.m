@@ -17,5 +17,4 @@ function frf = frf_calc(xjt, aij, li, Ai, st)
         st = ones(T, 1) * st(1);
     end
     frf = emission_portions * st;
-
 end
